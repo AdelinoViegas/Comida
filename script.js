@@ -18,7 +18,7 @@ var slider,imgactual,maximg,temp,tempotroca,vtemp,vbarra;
 function precarregamento(){
  var s = 1;
  for(var i = 0; i<7; i++){
-     ims[i] = new Image();
+    ims[i] = new Image();
      ims[i].scr = "img/img/s"+s+".jpg";
      s++;
  }
