@@ -17,7 +17,7 @@ var slider,imgactual,maximg,temp,tempotroca,vtemp,vbarra;
 
 function precarregamento(){
  var s = 1;
- for(var i = 0; i<7; i++){
+ for(var i = 0; i<5; i++){
     ims[i] = new Image();
      ims[i].scr = "img/img/s"+s+".jpg";
      s++;
@@ -46,8 +46,6 @@ function anima(){
   	tempotroca = 0;
   	trocar(1);
   }
-  vtemp = tempotroca/5;
-  vbarra.style.width = vtemp+"%";
   window.requestAnimationFrame(anima);
 }
 
@@ -56,7 +54,6 @@ function iniciar(){
 	imgactual = 0;
 	maximg = ims.length - 1;
     slider = document.getElementById('slider');
-    vbarra = document.getElementById('dvbarra');
     carregarimg(imgactual);
     tempotroca = 0;
      anima();
