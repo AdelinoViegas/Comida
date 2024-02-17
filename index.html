@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -10,21 +10,32 @@
 </head>
 <body>
 	
-<header id="header">
-    <a id="logo" href="">Saboriango</a>
-    <nav id="nav" class="">
-    	<div id="menutoggle">
-    		 <span id="um"></span>
-    		 <span id="dois"></span>
-    		 <span id="tres"></span>
-		</div>
-        <ul id="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Produtos</a></li>
-          <li><a href="#">Contatos</a></li>
-          <li><a href="#">Sobre</a></li>
-        </ul>
-    </nav>
+<header>	
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container-fluid mx-2">
+      <a class="navbar-brand" href="#">Saborango</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" id="toggle"></span>
+      </button>
+
+      <div class="collapse navbar-collapse"  id="mobile">
+        <ul class="navbar-nav mb-2 align-items-center">
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="#">Produtos</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="#">Contatos</a>
+          </li>
+          <li class="nav-item mx-4 ">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+      </div>
+    </div>
+  </nav>
 </header>
 
 <div id="slider" class="carousel slide" data-bs-ride="carousel">
@@ -59,158 +70,171 @@
 
 
 
+<section class="food">
+	<h3 class="text-center">Os Melhores Sabores</h3>
 
-
-<section id="section1">
-	<h3>Os Melhores Sabores</h3>
-
-	<div class="dv-section">
-		<div class="main-img">
+   <div class="container my-5">
+   <div class="row">
+	<div class="col-md-4 my-5">
+		<div>
 			<img src="img/comidas/co/c1.jpg">
 		</div>
-		<div class="main-info">
+		<div class="description">
 			<p>Batatas Fritas</p>
 			<div>
-			  <span id="encomenda">ENCOMENDAR</span>
-			  <span id="valor">3,500.00kz</span>
+			  <span class="buy">Comprar</span>
+			  <span class="value">3,500.00kz</span>
             </div>		
 		</div>
 	</div>
 
-	<div class="dv-section">
-		<div class="main-img">
+	<div class="col-md-4 my-5">
+		<div>
 			<img src="img/comidas/co/c2.jpg">
 		</div>
-		<div class="main-info">
+		<div class="description">
 		   	<p>Ovo Mexido</p>
 			<div>
-				<span id="encomenda">ENCOMENDAR</span>
-				<span id="valor">4,500.00kz</span>
+				<span class="buy">Comprar</span>
+				<span class="value">4,500.00kz</span>
 			</div>
 	    </div>
 	</div>
 
-	<div class="dv-section">
-		<div class="main-img">
+	<div class="col-md-4 my-5">
+		<div>
 			<img src="img/comidas/co/c3.jpg">
 		</div>
-		<div class="main-info">
-			<p>Camarão e Legumes</p>
+		<div class="description">
+			<p>Legumes</p>
 			<div>
-				<span id="encomenda">ENCOMENDAR</span>
-				<span id="valor">5,000.00kz</span>
+				<span class="buy">comprar</span>
+				<span class="value">5,000.00kz</span>
 			</div>
 		</div>
 	</div>
-
-	<div class="dv-section">
-		<div class="main-img">
+   </div>
+</div>
+  
+  <div class="container my-5">
+   <div class="row">
+	<div class="col-md-4 my-5">
+		<div>
 			<img src="img/comidas/co/c4.jpg">
 		</div>
-		<div class="main-info">
+		<div class="description">
 			<p>Pizza</p>
 			<div>
-				<span id="encomenda">ENCOMENDAR</span>
-				<span id="valor">1,500.00kz</span>
+				<span class="buy">Comprar</span>
+				<span class="value">1,500.00kz</span>
 			</div>
 		</div>
 	</div>
 
-	<div class="dv-section spac-cima">
-		<div class="main-img">
+	<div class="col-md-4 my-5">
+		<div>
 			<img src="img/comidas/co/c5.jpg">
 		</div>
-		<div class="main-info">
+		<div class="description">
 			<p>Macarrão</p>
 			<div>
-				<span id="encomenda">ENCOMENDAR</span>
-				<span id="valor">2,500.00kz</span>
+				<span class="buy">Comprar</span>
+				<span class="value">2,500.00kz</span>
 			</div>
 		</div>
 	</div>
 
-	<div class="dv-section spac-cima">
-		<div class="main-img">
+	<div class="col-md-4 my-5">
+		<div>
 			<img src="img/comidas/co/c6.jpg">
 		</div>
-		<div class="main-info">
+		<div class="description">
 			<p>Bife e batatas</p>
 			<div>
-				<span id="encomenda">ENCOMENDAR</span>
-				<span id="valor">3,500.00kz</span>
+				<span class="buy">Comprar</span>
+				<span class="value">3,500.00kz</span>
 			</div>
 		</div>
 	</div>
+   </div>
+</div>	
 
-	<div class="dv-section spac-cima">
-		<div class="main-img">
+
+<div class="container my-5">
+   <div class="row"> 
+	<div class="col-md-4 my-5">
+		<div>
 			<img src="img/comidas/co/c7.jpg">
 		</div>
-		<div class="main-info">
+		<div class="description">
 			<p>Peixe Cozido</p>
 			<div>
-				<span id="encomenda">ENCOMENDAR</span>
-				<span id="valor">4,500.00kz</span>
+				<span class="buy">Comprar</span>
+				<span class="value">4,500.00kz</span>
 			</div>
 		</div>
 	</div>
 
-	<div class="dv-section spac-cima">
-		<div class="main-img">
+	<div class="col-md-4 my-5">
+		<div>
 			<img src="img/comidas/co/c8.jpg">
 		</div>		
-		<div class="main-info">
+		<div class="description">
 			<p>Pastel</p>
 			<div>
-				<span id="encomenda">ENCOMENDAR</span>
-				<span id="valor">2,500.00kz</span>
+				<span class="buy">Comprar</span>
+				<span class="value">2,500.00kz</span>
 			</div>
 		</div>
 	</div>
 
-	<div class="dv-section spac-cima">
-		<div class="main-img">
+	<div class="col-md-4 my-5">
+		<div>
 			<img src="img/comidas/co/c9.jpg">
 		</div>
-		<div class="main-info">
+		<div class="description">
 			<p>Hamburguer</p>
 			<div>
-				<span id="encomenda">ENCOMENDAR</span>
-				<span id="valor">3,500.00kz</span>
+				<span class="buy">Comprar</span>
+				<span class="value">3,500.00kz</span>
 			</div>
 		</div>
 	</div>
-
+ <div>
+</div>
 </section>
 
 
-	<h3 id="contato">Contatos da Saborango</h3>
 
-<div id="contato">
-<div>
-	<p>E-MAIL</p>
-	<span>Tecladista931@hotmail.com</span>
-	<span>PianoProf@gmail.com</span>
+ <h3 id="address-text">Contatos da Saborango</h3>
+
+<div class="container-fluid" id="footer">
+
+<div class="row m-0">	
+<div class="col-lg-4 my-5">
+	<p class="text-center">E-MAIL</p>
+	<span class="text-center">Tecladista931@hotmail.com</span>
+	<span class="text-center">PianoProf@gmail.com</span>
 </div>
 
-<div>
-	<p>TELEFONE</p>
-	<span class="dv1">+244 999 000 000</span>
-	<span class="dv1">+244 222 000 777</span>
+<div class="col-lg-4 my-5">
+	<p class="text-center">TELEFONE</p>
+	<span class="text-center">+244 999 000 000</span>
+	<span class="text-center">+244 222 000 777</span>
 </div>
 
-<div>
-	<p id="paragrafo-tel">REDES-SOCIAIS</p>
-<div id="rede-social-container">
+<div class="col-lg-4 my-5">
+	<p class="text-center">REDES-SOCIAIS</p>
+<div class="text-center" id="rede-social-container">
 	<span class="rede-social"><img src="img/linkedin.png"></span>
 	<span class="rede-social"><img src="img/facebook.jpg"></span>
 	<span class="rede-social"><img src="img/instagram.jpg"></span>
 	<span class="rede-social"><img src="img/whatsapp.jpg"></span>
 </div>
 </div>	
+</div>
 </div>	
 
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
