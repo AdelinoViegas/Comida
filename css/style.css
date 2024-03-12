@@ -146,12 +146,17 @@ a:hover{background-color: rgba(0,0,0,0.1); color: white;}
     justify-content: center;
     height: 70px;
     width:100%;
-    column-gap:5px;
+    column-gap:15px;
 }
 
 .rede-social{
   width: 45px;
   height: 45px;
+  cursor:pointer;
+}
+
+.rede-social img{
+    border-radius:50%;
 }
 
 
