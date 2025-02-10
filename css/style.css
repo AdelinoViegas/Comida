@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family= Birthstone +Bounce & display=swap');
 
 /*configurações*/
+*{ box-sizing: border-box; }
 body,ul{ margin: 0; padding: 0; }
 li{ list-style: none; }
 a{ 
@@ -9,7 +10,6 @@ a{
   font: 100 28px Brush Script MT;
 }
 img{ width: 100%; height: 100%; }
-*{ box-sizing: border-box; }
 a:hover{background-color: rgba(0,0,0,0.1); color: white;}
 
 #column-gap{
