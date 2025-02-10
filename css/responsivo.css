@@ -1,5 +1,4 @@
 @media screen and (max-width:600px){
-
   .food h3{
     padding: 30px 0px;
     font-size: 38px;
@@ -11,8 +10,8 @@
   }
 
   #address-text{
-     margin: 40px 0px;
-     font-size: 38px; 
+    margin: 40px 0px;
+    font-size: 38px; 
   }
 
   #footer div p{
@@ -25,7 +24,6 @@
 }
 
 @media screen and (max-width:320px){
-
   .food h3{
     padding: 28px 0px;
     font-size: 30px;
@@ -41,8 +39,8 @@
   }
 
   #address-text{
-     margin: 38px 0px;
-     font-size: 30px; 
+    margin: 38px 0px;
+    font-size: 30px; 
   }
 
   #footer div p{
